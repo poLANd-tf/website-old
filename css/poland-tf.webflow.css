@@ -349,7 +349,7 @@ a:hover {
   color: #b83a55;
   font-weight: 600;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .cta:hover {
