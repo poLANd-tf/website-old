@@ -241,7 +241,7 @@ a:hover {
   transition: color 200ms ease;
   color: #fff;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .navbar-link:hover {
