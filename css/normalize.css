@@ -362,3 +362,6 @@ th {
 .container.hero {
   gap: 32px;
 }
+div.note {
+  font-family: 'Exo 2', sans-serif;
+}
