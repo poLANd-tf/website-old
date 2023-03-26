@@ -397,3 +397,12 @@ div.note {
   margin: 0 auto;
   padding: 42px 0;
 }
+
+.para-wrapper li {
+  font-size: 22px;
+}
+
+#fundraiser li {
+  list-style: none;
+  font-size: 24px;
+}
