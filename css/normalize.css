@@ -392,3 +392,8 @@ div.note {
 .hero-info-wrapper-half h2 {
   text-align: center;
 }
+
+.pickup-logo {
+  margin: 0 auto;
+  padding: 42px 0;
+}
