@@ -543,6 +543,7 @@ a:hover {
 .note.role {
   margin-top: 0px;
   color: #5e146a;
+  font-size: 14px;
 }
 
 .note.role.faq-answer {
@@ -558,14 +559,22 @@ a:hover {
 
 .stuff-grid {
   margin-top: 30px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
-
+#special-thanks .stuff-grid {
+  margin-top: 30px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
 .stuff-grid.merch {
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -578,9 +587,9 @@ a:hover {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-.stuff-img {
-  width: 100%;
-  height: 266px;
+img.stuff-img {
+  width: 140px;
+  aspect-ratio: 1 / 1;
   border-radius: 2px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -593,7 +602,7 @@ a:hover {
 
 .stuff-name {
   color: #5e146a;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1;
   font-weight: 400;
 }
