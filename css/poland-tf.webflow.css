@@ -12,10 +12,22 @@
 }
 a.gallery-link {
   font-family: Gabarito, sans-serif;
+  text-decoration: none !important;
+}
+a.cta {
+  text-decoration: none !important;
+}
+.container.directions {
+  display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 p > a {
   text-decoration: underline !important;
 }
+a {text-decoration: underline !important;}
 .credits {
   text-align: center;
   padding: 8px 0;
@@ -794,10 +806,9 @@ img.stuff-img {
 
   .container.hero {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .hero-img-wrapper {
